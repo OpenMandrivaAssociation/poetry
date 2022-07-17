@@ -38,7 +38,7 @@ It requires Python 3.7+ to run.
 %autosetup -p1
  
 # remove vendored dependencies
-rm -r poetry/_vendor
+#rm -r poetry/_vendor
  
 mkdir wheels
 pip wheel --wheel-dir wheels --no-deps --no-build-isolation --verbose .
